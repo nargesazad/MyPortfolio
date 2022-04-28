@@ -1,4 +1,18 @@
-body{
-    font-family: 'Architects Daughter', cursive;
-font-family: 'Vazirmatn', sans-serif;
+body {
+  background-image: url("/MyPortfolio/images/BG4000.jpg");
+  font-family: "Architects Daughter", cursive;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.hero {
+  color: azure;
+  margin: 400px 500px;
+}
+
+.hero h1 {
+  font-size: 200px;
+}
+
+.hero p {
+  font-size: 50px;
 }
