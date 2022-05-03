@@ -1,18 +1,77 @@
+:root {
+  --primary-color: #531d84;
+  --secondary-color: #d6d4ff;
+  --box-shadow: 0 5px 10px #c8bed6;
+}
 body {
   background-image: url("/MyPortfolio/images/BG4000.jpg");
+  background-size: contain;
   font-family: "Architects Daughter", cursive;
   font-family: "Vazirmatn", sans-serif;
 }
-
 .hero {
-  color: azure;
-  margin: 400px 500px;
+  color: var(--secondary-color);
+  margin: 200px 20px;
 }
 
 .hero h1 {
-  font-size: 200px;
+  font-size: 100px;
 }
 
 .hero p {
   font-size: 50px;
+}
+
+h2 {
+  color: var(--secondary-color);
+  margin: 20px;
+  font-size: 50px;
+}
+p,
+ul {
+  color: var(--secondary-color);
+  margin: 20px;
+}
+
+img {
+  box-shadow: var(--box-shadow);
+}
+
+.but {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.latest-project p {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 5px;
+}
+
+.contact-point {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+  .hero {
+    color: var(--secondary-color);
+    margin: 65px;
+  }
+
+  .hero h1 {
+    font-size: 25px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  h2 {
+    color: var(--secondary-color);
+    font-size: 20px;
+  }
 }
