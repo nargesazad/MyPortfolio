@@ -77,8 +77,18 @@ img {
   body {
     text-align: center;
   }
-  .hero {
+
+  h2 {
     color: var(--secondary-color);
+    font-size: 20px;
+  }
+
+  p,
+  ul {
+    margin: 10px;
+  }
+
+  .hero {
     margin: 65px;
   }
 
@@ -90,8 +100,11 @@ img {
     font-size: 17px;
   }
 
-  h2 {
-    color: var(--secondary-color);
-    font-size: 20px;
+  .latest-project {
+    margin: 20px 10px;
+  }
+
+  .contactme {
+    margin: 10px 10px;
   }
 }
