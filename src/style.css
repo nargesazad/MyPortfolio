@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("/images/BG4000.jpg");
+  background-image: url("../images/BG4000.jpg");
   background-size: contain;
   font-family: "Architects Daughter", cursive;
   font-family: "Vazirmatn", sans-serif;
@@ -26,6 +26,7 @@ ul {
 img {
   box-shadow: var(--box-shadow);
 }
+
 .hero {
   color: var(--secondary-color);
   margin: 220px 90px;
@@ -73,6 +74,19 @@ img {
   padding: 5px;
 }
 
+.col-sm-6 p {
+  border-radius: 10px;
+}
+
+.certificate {
+  margin: 90px;
+}
+
+.projects h5,
+p {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   body {
     text-align: center;
@@ -106,5 +120,9 @@ img {
 
   .contactme {
     margin: 10px 10px;
+  }
+
+  .certificate {
+    margin: 20px;
   }
 }
