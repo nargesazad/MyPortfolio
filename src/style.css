@@ -3,15 +3,32 @@
   --secondary-color: #d6d4ff;
   --box-shadow: 0 5px 10px #c8bed6;
 }
+
 body {
   background-image: url("/MyPortfolio/images/BG4000.jpg");
   background-size: contain;
   font-family: "Architects Daughter", cursive;
   font-family: "Vazirmatn", sans-serif;
 }
+
+h2 {
+  color: var(--secondary-color);
+  margin: 20px;
+  font-size: 50px;
+}
+
+p,
+ul {
+  color: var(--secondary-color);
+  margin: 20px;
+}
+
+img {
+  box-shadow: var(--box-shadow);
+}
 .hero {
   color: var(--secondary-color);
-  margin: 200px 20px;
+  margin: 100px 20px;
 }
 
 .hero h1 {
@@ -22,35 +39,38 @@ body {
   font-size: 50px;
 }
 
-h2 {
-  color: var(--secondary-color);
-  margin: 20px;
-  font-size: 50px;
-}
-p,
-ul {
-  color: var(--secondary-color);
-  margin: 20px;
-}
-
-img {
-  box-shadow: var(--box-shadow);
-}
-
 .but {
+  font-weight: bold;
   color: var(--primary-color);
   background-color: var(--secondary-color);
+}
+
+.latest-project {
+  color: var(--secondary-color);
+  margin: 200px 20px;
 }
 
 .latest-project p {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   padding: 5px;
+  border-radius: 5px;
+}
+
+.contactme {
+  color: var(--secondary-color);
+  margin: 100px 20px;
 }
 
 .contact-point {
   background-color: var(--secondary-color);
   color: var(--primary-color);
+}
+
+.about-p p {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 5px;
 }
 
 @media (max-width: 900px) {
