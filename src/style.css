@@ -28,15 +28,15 @@ img {
 }
 .hero {
   color: var(--secondary-color);
-  margin: 100px 20px;
+  margin: 220px 90px;
 }
 
 .hero h1 {
-  font-size: 100px;
+  font-size: 50px;
 }
 
 .hero p {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .but {
@@ -47,7 +47,7 @@ img {
 
 .latest-project {
   color: var(--secondary-color);
-  margin: 200px 20px;
+  margin: 200px 90px;
 }
 
 .latest-project p {
@@ -59,7 +59,7 @@ img {
 
 .contactme {
   color: var(--secondary-color);
-  margin: 100px 20px;
+  margin: 100px 90px;
 }
 
 .contact-point {
