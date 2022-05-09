@@ -36,6 +36,15 @@ nav {
   height: 40px;
 }
 
+footer {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  padding: 3px;
+}
+
 .hero {
   margin: 220px;
 }
@@ -83,7 +92,7 @@ nav {
 }
 
 .col-md-6 p {
-  border-radius: 10px;
+  border-radius: 5px;
   margin-bottom: 3px;
 }
 
