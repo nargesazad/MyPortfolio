@@ -9,17 +9,18 @@ body {
   background-size: contain;
   font-family: "Architects Daughter", cursive;
   font-family: "Vazirmatn", sans-serif;
+  margin: 20px;
+  color: var(--secondary-color);
 }
 
 h2 {
   color: var(--secondary-color);
-  margin: 20px;
   font-size: 50px;
+  text-align: center;
 }
 
 p,
 ul {
-  color: var(--secondary-color);
   margin: 20px;
 }
 
@@ -28,8 +29,7 @@ img {
 }
 
 .hero {
-  color: var(--secondary-color);
-  margin: 220px 90px;
+  margin: 220px;
 }
 
 .hero h1 {
@@ -47,8 +47,7 @@ img {
 }
 
 .latest-project {
-  color: var(--secondary-color);
-  margin: 200px 90px;
+  margin: 200px;
 }
 
 .latest-project p {
@@ -60,7 +59,7 @@ img {
 
 .contactme {
   color: var(--secondary-color);
-  margin: 100px 90px;
+  margin: 100px;
 }
 
 .contact-point {
@@ -76,6 +75,7 @@ img {
 
 .col-sm-6 p {
   border-radius: 10px;
+  margin-bottom: 3px;
 }
 
 .certificate {
@@ -109,7 +109,6 @@ img {
   }
 
   h2 {
-    color: var(--secondary-color);
     font-size: 20px;
   }
 
@@ -140,5 +139,13 @@ img {
 
   .certificate {
     margin: 20px;
+  }
+
+  .col-sm-4 {
+    margin: 3px;
+  }
+
+  .col-sm-3 {
+    margin: 3px;
   }
 }
