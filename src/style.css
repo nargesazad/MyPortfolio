@@ -32,6 +32,10 @@ input {
   color: var(--secondary-color);
 }
 
+nav {
+  height: 40px;
+}
+
 .hero {
   margin: 220px;
 }
@@ -78,7 +82,7 @@ input {
   padding: 5px;
 }
 
-.col-sm-6 p {
+.col-md-6 p {
   border-radius: 10px;
   margin-bottom: 3px;
 }
@@ -142,15 +146,19 @@ input {
     margin: 10px 10px;
   }
 
+  .but {
+    margin-bottom: 5px;
+  }
+
   .certificate {
     margin: 20px;
   }
 
-  .col-sm-4 {
+  .col-md-4 {
     margin: 3px;
   }
 
-  .col-sm-3 {
+  .col-md-3 {
     margin: 3px;
   }
 }
